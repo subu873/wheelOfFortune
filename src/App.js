@@ -7,16 +7,16 @@ function App() {
     const [winnerIndex, setWinnerIndex] = useState(null)
     const [spin, setSpin] = useState(false)
     const data = [
-        {option: '1 Free Spin', style: {backgroundColor: 'white', textColor: 'black'}},
-        {option: '2 Game', style: {backgroundColor: '#9933CC', textColor: 'white'}},
-        {option: '1 Transfer', style: {backgroundColor: 'Orange', textColor: 'white'}},
-        {option: '1 Hard Luck', style: {backgroundColor: 'black', textColor: 'white'}},
+        {option: '0 Free Spin', style: {backgroundColor: 'white', textColor: 'black'}},
+        {option: '1 Game', style: {backgroundColor: '#9933CC', textColor: 'white'}},
+        {option: '2 Transfer', style: {backgroundColor: 'Orange', textColor: 'white'}},
+        {option: '3 Hard Luck', style: {backgroundColor: 'black', textColor: 'white'}},
         {option: '4 Voting', style: {backgroundColor: '#002366', textColor: 'white'}},
-        {option: '1 Insurance', style: {backgroundColor: '#800080', textColor: 'white'}},
-        {option: '2 Prediction', style: {backgroundColor: '#367588', textColor: 'white'}},
-
-        {option: '8 Free Spin', style: {backgroundColor: 'white', textColor: 'black'}},
-        {option: '9 Game', style: {backgroundColor: '#9933CC', textColor: 'white'}},
+        {option: '5 Insurance', style: {backgroundColor: '#800080', textColor: 'white'}},
+        {option: '6 Prediction', style: {backgroundColor: '#367588', textColor: 'white'}},
+        {option: '7 Free Spin', style: {backgroundColor: 'white', textColor: 'black'}},
+        {option: '8 Game', style: {backgroundColor: '#9933CC', textColor: 'white'}},
+        {option: '9 Prediction', style: {backgroundColor: '#367588', textColor: 'white'}},
         {option: '10 Transfer', style: {backgroundColor: 'Orange', textColor: 'white'}},
         {option: '11 Hard Luck', style: {backgroundColor: 'black', textColor: 'white'}},
         {option: '12 Voting', style: {backgroundColor: '#002366', textColor: 'white'}},
